@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         nextBtn = findViewById(R.id.nextBtn)
         exitBtn = findViewById(R.id.exitBtn)
 
-        // Set the parallel arrays here
+        // Initialise the parallel arrays here
 
         songName = intent.getStringArrayListExtra("songName") ?: arrayListOf()
         singerName = intent.getStringArrayListExtra("singerName") ?: arrayListOf()
@@ -80,6 +80,11 @@ class MainActivity : AppCompatActivity() {
                 // Code to go to the next screen
                val intent = Intent(this,DetailViewsActivity::class.java)
                 startActivity(intent)  // This starts the new screen
+            }
+
+            // Set the Exit button here on click listener
+            exitBtn.setOnClickListener {
+                finishAffinity()
             }
 
 

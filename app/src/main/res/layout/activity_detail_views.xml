@@ -2,9 +2,63 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailViewsActivity">
+
+    <Button
+        android:id="@+id/displayBtn"
+        android:layout_width="268dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="64dp"
+        android:text="Display"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/calcBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/calcBtn"
+        android:layout_width="268dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="66dp"
+        android:text="Calculate"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/showBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_width="276dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="60dp"
+        android:text="Show details"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/music_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/calcBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/displayTxt"
+        android:layout_width="267dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="171dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/music_list"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

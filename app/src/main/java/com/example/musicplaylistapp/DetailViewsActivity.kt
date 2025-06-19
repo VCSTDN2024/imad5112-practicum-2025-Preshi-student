@@ -1,20 +1,93 @@
 package com.example.musicplaylistapp
 
 import android.os.Bundle
+import android.widget.Adapter
+import android.widget.AdapterView
+import android.widget.AdapterViewFlipper
+import android.widget.Button
+import android.widget.ListView
+import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.RecyclerView
 
 class DetailViewsActivity : AppCompatActivity() {
+    private lateinit var displayTxt: TextView
+    private lateinit var displayBtn: Button
+    private lateinit var calcBtn: Button
+    private lateinit var showBtn: Button
+    private lateinit var music_list: RecyclerView
+
+
+    // Put your list of songs here
+    companion object {
+        fun getDefaultSongs(): List<String> {
+            return listOf(
+            "Beautiful Things", "Imagine Dragons", "5", "Rock",
+            "Way Maker", "Sinach", "5", "Gospel",
+            "Ghost", "Justin Bieber", "4", "Pop",
+            "Treat you better", "Shawn Mendes", "R&B",
+
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_detail_views)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        // Initialise UI Elements here
+        displayTxt = findViewById(R.id.displayTxt)
+        displayBtn = findViewById(R.id.displayBtn)
+        calcBtn = findViewById(R.id.calcBtn)
+        showBtn = findViewById(R.id.showBtn)
+        music_list = findViewById(R.id.music_list)
+
+
+
+
+
+
+
+        // Set the display button on click listener
+        displayBtn.setOnClickListener {
+            Toast.makeText(this, "Songs Displayed!", Toast.LENGTH_SHORT).show()
+
+
+            // Set the calculating button on click listener
+            calcBtn.setOnClickListener {
+
+
+            }
+
+
+
+
+
+
         }
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

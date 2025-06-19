@@ -2,10 +2,20 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/showBtn"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/music"
+        android:scaleType="fitXY" />
+
+
+
 
     <EditText
         android:id="@+id/songNametxt"
@@ -59,8 +69,8 @@
         android:id="@+id/addBtn"
         android:layout_width="203dp"
         android:layout_height="61dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="120dp"
         android:text="Add to PlayList"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/exitBtn"
@@ -70,8 +80,8 @@
         android:id="@+id/nextBtn"
         android:layout_width="160dp"
         android:layout_height="55dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="90dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="124dp"
         android:text="Next"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/exitBtn"
@@ -81,8 +91,8 @@
         android:id="@+id/exitBtn"
         android:layout_width="186dp"
         android:layout_height="55dp"
-        android:layout_marginEnd="74dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="32dp"
         android:text="Exit"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
