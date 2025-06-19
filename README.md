@@ -1,16 +1,14 @@
 ST10470248
 Precious Mbabazi
-IMAD5111 Assignment 2
+IMAD5111 Practicum Exam 
 
-FlashCardApp 
+Music Playlist Manager App
 
 Purpose and Features 
-This is a flashcardsapp that is meant to help students study for exams in a more creative and engaging way. It is specifically based on the history subject that gives student an opportunity to study in a more fun way 
-whereby the students get questions and then answer by clicking true or false then they get scores based on their answers and get to review their work. 
-
+This is an app created in Android Studio using the programming language kotlin.  It stores song details whereby users can be able to create and manage their playlists. Users can therefore be able to give information about artists, give ratings and comment.  This specific app give four songs though. 
 Key features:
-Feature 1:  The app uses a for...loop to iterate through all the five questions. 
-Feature 2:  The app uses parallel arrays, one for the questions and one for the answers which is a boolean array of true or false. 
+Feature 1:  The app uses four parallel arrays whereby one is for the song title, artist name, rating, and comments 
+Feature 2:  The app uses a for...loop. 
 
 Design Considerations 
 The appearance of the app is quite visually appealing. That when the user opens the app, it already gets them motivated to start the quiz. The different screens all have different visual backgrounds that all speak 
