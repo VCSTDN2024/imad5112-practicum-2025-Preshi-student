@@ -8,14 +8,10 @@ Purpose and Features
 This is an app created in Android Studio using the programming language kotlin.  It stores song details whereby users can be able to create and manage their playlists. Users can therefore be able to give information about artists, give ratings and comment.  This specific app give four songs though. 
 Key features:
 Feature 1:  The app uses four parallel arrays whereby one is for the song title, artist name, rating, and comments 
-Feature 2:  The app uses a for...loop. 
+Feature 2:  The app uses a for...loop to display the songs when the display view screen button is clicked.   
 
 Design Considerations 
-The appearance of the app is quite visually appealing. That when the user opens the app, it already gets them motivated to start the quiz. The different screens all have different visual backgrounds that all speak 
-to the function of each screen. 
-The app has 4 screens in total whereby the app runs with ease on these 4 screens without encountering any errors.  It has a simple user interface that makes it easier for the user 
-to interact eaasily with the app. There are no complications, so the user will not be overwhelmed. 
-
+The app has been designed with 2 screens. The Main Screen and the Detailed View Screen. 
 You can find my github link here:
 https://github.com/Preshi-student/FlashCardsApp.git
 
