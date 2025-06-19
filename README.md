@@ -23,14 +23,10 @@ Github
 As I was coding the app, I kept pushing the codes to github which helped me keep track of my changes. 
 
 App Screenshots:
-![welcome screen ](https://github.com/user-attachments/assets/a850c060-0639-4d6a-9656-4154738ba67d)
-![quiz screen - incorrect ](https://github.com/user-attachments/assets/edf68a14-d1c4-43fe-bce6-480e00ea79ea)
-![quiz screen - correct ](https://github.com/user-attachments/assets/7b3d7c1b-d871-4ba9-9bdc-522ebfb48040)
-![review screen ](https://github.com/user-attachments/assets/a585a9fe-9ee3-41c6-b7e8-85131240d393)
-![review screen ](https://github.com/user-attachments/assets/8a6968f8-b9db-4fdb-a248-1aec1437c15f)
+![first screen ](https://github.com/user-attachments/assets/60dbd798-a21e-4916-a2c5-2718ffbe9ff8)
 
-You can find my video here:
-https://youtu.be/GcEM-Pa2N9I?si=C42F_ryiEnNeDuGx
+
+
 
 Challenges and Learnings: 
 Challenge 1: My app faced some IDE issues when I was trying to run it. It kept terminating. 
