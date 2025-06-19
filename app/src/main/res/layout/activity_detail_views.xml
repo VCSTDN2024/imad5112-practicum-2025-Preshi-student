@@ -32,8 +32,8 @@
         android:id="@+id/showBtn"
         android:layout_width="276dp"
         android:layout_height="54dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="96dp"
         android:text="Show details"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
         android:id="@+id/music_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="11dp"
+        android:layout_marginBottom="56dp"
         app:layout_constraintBottom_toTopOf="@+id/calcBtn"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -52,13 +52,20 @@
         android:layout_width="267dp"
         android:layout_height="75dp"
         android:layout_marginEnd="96dp"
-        android:layout_marginBottom="171dp"
+        android:layout_marginBottom="104dp"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/music_list"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
-
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="19dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
