@@ -11,9 +11,13 @@ Feature 1:  The app uses four parallel arrays whereby one is for the song title,
 Feature 2:  The app uses a for...loop to display the songs when the display view screen button is clicked.   
 
 Design Considerations 
-The app has been designed with 2 screens. The Main Screen and the Detailed View Screen. 
+The app has been designed with 2 screens. The Main Screen and the Detailed View Screen. So when the user opens the app he/she will click the "Add to Playlist" button which will require to enter the song details. 
+I also made the next button on the first screen  which will enable the user to go to the next screen if he/she presses on the next button. 
+Then the exit button on the first screen enables the user to get out of the app. 
+For the second screen, I made the display button whereby if the user clicks on it, it will display the list of songs with all its other values. 
+
+
 You can find my github link here:
-https://github.com/Preshi-student/FlashCardsApp.git
 
 Github
 As I was coding the app, I kept pushing the codes to github which helped me keep track of my changes. 
