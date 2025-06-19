@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/songNametxt"
+        android:layout_width="282dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="46dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/singerNametxt"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/singerNametxt"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/ratingTxt"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/ratingTxt"
+        android:layout_width="313dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/commentsTxt"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/commentsTxt"
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="103dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/addBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="203dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="90dp"
+        android:text="Add to PlayList"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/exitBtn"
+        app:layout_constraintEnd_toStartOf="@+id/nextBtn" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="90dp"
+        android:text="Next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/exitBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="186dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="24dp"
+        android:text="Exit"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
