@@ -18,6 +18,7 @@ For the second screen, I made the display button whereby if the user clicks on i
 
 
 You can find my github link here:
+https://github.com/VCSTDN2024/imad5112-practicum-2025-Preshi-student.git
 
 Github
 As I was coding the app, I kept pushing the codes to github which helped me keep track of my changes. 
